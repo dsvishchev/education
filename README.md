@@ -14,4 +14,4 @@
 ### Реализация
 Реализация описана в файле [descriptive_statistics](descriptive_statistics.ipynb)
 ### Данные
-Датасет [классификация гендеров](gender_classification.csv)
+Датасет [классификация гендеров](datasets/gender_classification.csv)
