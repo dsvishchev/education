@@ -6,7 +6,7 @@
 ### Реализация
 Реализация описана в файле [tabular_data](tabular_data.ipynb)
 ### Данные
-Датасет [игроки FIFA](fifa_players.csv)
+Датасет [игроки FIFA](datasets/fifa_players.csv)
 
 ## Лабораторная работа #3
 ### Задание
@@ -14,4 +14,4 @@
 ### Реализация
 Реализация описана в файле [descriptive_statistics](descriptive_statistics.ipynb)
 ### Данные
-Датасет [классификация гендеров](gender_classification.csv)
+Датасет [классификация гендеров](datasets/gender_classification.csv)
