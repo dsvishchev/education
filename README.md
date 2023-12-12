@@ -29,3 +29,15 @@
 ### Ввод/вывод
 Исходное изображение и шаги преобразования для восстановления изображения
 ![image_recovery_result.png](images/image_recovery_result.png)
+
+## Лабораторная работа #4
+### Задание
+Осуществить пороговую фильтрацию изображения и перевести текст
+### Реализация
+Реализация описана в файле [threshold_filtering](threshold_filtering.ipynb)
+### Ввод/вывод
+Исходное изображение
+![chinieze_text.jpeg](images/chinieze_text.jpeg)
+Результаты перевода
+![result_binary.jpg](images/result_binary.jpg)
+![result_binary_inv.jpg](images/result_binary_inv.jpg)
