@@ -31,3 +31,11 @@
 Реализация описана в файле [data_visualization](data_visualization.ipynb)
 ### Данные
 Датасет [классификация гендеров](datasets/gender_classification.csv)
+
+## Лабораторная работа #6
+### Задание
+Отбор признаков
+### Реализация
+Реализация описана в файле [feature_selection](feature_selection.ipynb)
+### Данные
+Датасет [классификация гендеров](datasets/gender_classification.csv)
