@@ -71,3 +71,11 @@
 Реализация описана в файле [decision_trees](decision_trees.ipynb)
 ### Данные
 Датасет [игроки FIFA](datasets/fifa_players.csv)
+
+## Лабораторная работа #10
+### Задание
+Кластеризация
+### Реализация
+Реализация описана в файле [сlustering](сlustering.ipynb)
+### Данные
+Датасет [игроки FIFA](datasets/fifa_players.csv)
