@@ -61,3 +61,17 @@
 ![women_1.png](images/women_1.png)
 
 ![women_2.png](images/women_2.png)
+
+## Лабораторная работа #6
+### Задание
+С использованием сегментации изображения выделить юбку
+### Реализация
+Реализация описана в файле [image_segmentation](image_segmentation.ipynb)
+### Ввод/вывод
+Исходное изображение
+
+![women.jpeg](images/women.jpeg)
+
+Результаты выделения
+
+![women_1.png](images/women_3.png)
