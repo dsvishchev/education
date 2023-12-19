@@ -37,7 +37,27 @@
 Реализация описана в файле [threshold_filtering](threshold_filtering.ipynb)
 ### Ввод/вывод
 Исходное изображение
+
 ![chinieze_text.jpeg](images/chinieze_text.jpeg)
+
 Результаты перевода
+
 ![result_binary.jpg](images/result_binary.jpg)
+
 ![result_binary_inv.jpg](images/result_binary_inv.jpg)
+
+## Лабораторная работа #5
+### Задание
+С использованием цветовой сегментации выделить юбку
+### Реализация
+Реализация описана в файле [color_segmentation](color_segmentation.ipynb)
+### Ввод/вывод
+Исходное изображение
+
+![women.jpeg](images/women.jpeg)
+
+Результаты выделения
+
+![women_1.png](images/women_1.png)
+
+![women_2.png](images/women_2.png)
