@@ -79,3 +79,11 @@
 Реализация описана в файле [сlustering](сlustering.ipynb)
 ### Данные
 Датасет [игроки FIFA](datasets/fifa_players.csv)
+
+## Лабораторная работа #11
+### Задание
+Перцептрон
+### Реализация
+Реализация описана в файле [perceptron](сlustering.ipynb)
+### Данные
+Датасет [классификация гендеров](datasets/gender_classification.csv)
