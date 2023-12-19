@@ -84,6 +84,6 @@
 ### Задание
 Перцептрон
 ### Реализация
-Реализация описана в файле [perceptron](сlustering.ipynb)
+Реализация описана в файле [perceptron](perceptron.ipynb)
 ### Данные
 Датасет [классификация гендеров](datasets/gender_classification.csv)
