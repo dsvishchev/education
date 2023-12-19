@@ -54,7 +54,7 @@
 ### Реализация
 Реализация описана в файле [feature_coding](feature_coding.ipynb)
 ### Данные
-Датасет [игроки FIFA](datasets/fifa_players.csv)
+Датасет [игроки FIFA](datasets/gender_classification.csv)
 
 ## Лабораторная работа #8
 ### Задание
