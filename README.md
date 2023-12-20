@@ -75,3 +75,21 @@
 Результаты выделения
 
 ![women_1.png](images/women_3.png)
+
+## Лабораторная работа #7
+### Задание
+Найти шаблон на изображении
+### Реализация
+Реализация описана в файле [digital_image_processing](digital_image_processing.ipynb)
+### Ввод/вывод
+Исходное изображение
+
+![city.jpeg](images/city.jpeg)
+
+Шаблон
+
+![clown.png](images/clown.png)
+
+Результаты выделения
+
+![clown_in_the_city.png](images/clown_in_the_city.png)
