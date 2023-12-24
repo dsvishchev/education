@@ -3,3 +3,4 @@ This repository includes training in a number of small areas of general developm
 ## Sections
 1. [Machine learning](https://github.com/dsvishchev/education/tree/machine-learning)
 2. [Digital image processing](https://github.com/dsvishchev/education/tree/digital-image-processing)
+3. [Deep learning](https://github.com/dsvishchev/education/tree/deep-learning)
