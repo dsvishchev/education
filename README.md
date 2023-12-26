@@ -87,3 +87,11 @@
 Реализация описана в файле [perceptron](perceptron.ipynb)
 ### Данные
 Датасет [классификация гендеров](datasets/gender_classification.csv)
+
+## Лабораторная работа #12
+### Задание
+Ассоциативные правила 
+### Реализация
+Реализация описана в файле [association_rules](association_rules.ipynb)
+### Данные
+Датасет [оптимизация продуктовой корзины](datasets/Market_Basket_Optimisation.csv)
