@@ -62,7 +62,7 @@
 ### Реализация
 Реализация описана в файле [linear_and_logistic_regression](linear_and_logistic_regression.ipynb)
 ### Данные
-Датасет [игроки FIFA](datasets/fifa_players.csv)
+Датасет [классификация гендеров](datasets/gender_classification.csv)
 
 ## Лабораторная работа #9
 ### Задание
