@@ -15,6 +15,21 @@ generator_input_shape = (latent_dim,)
 discriminator_input_shape = (28, 28, 1)
 
 
+# Вспомогательная функция для отображения сгенерированных изображений
+def plot_generated_images(generator, epoch, examples=10, dim=(1, 10), figsize=(10, 1)):
+    noise = np.random.normal(0, 1, size=(examples, latent_dim))
+    generated_images = generator.predict(noise)
+    generated_images = generated_images.reshape(examples, 28, 28)
+
+    plt.figure(figsize=figsize)
+    for i in range(10):
+        plt.subplot(dim[0], dim[1], i + 1)
+        plt.imshow(generated_images[i], interpolation='nearest', cmap='gray_r')
+        plt.axis('off')
+    plt.tight_layout()
+    plt.savefig(f'gan_generated_image_epoch_{epoch}.png')
+
+
 # Генератор
 def build_generator():
     model = models.Sequential()
@@ -98,7 +113,6 @@ def train_GAN(epochs, batch_size):
             plot_generated_images(generator, epoch + 1, latent_dim)
 
 
-
 # Обучение GAN
 train_GAN(epochs=10, batch_size=128)
 
@@ -109,20 +123,6 @@ generator.save('generator_model.h5')
 discriminator.save('discriminator_model.h5')
 
 gan.save('gan_model.h5')
-
-# Вспомогательная функция для отображения сгенерированных изображений
-def plot_generated_images(generator, epoch, examples=10, dim=(1, 10), figsize=(10, 1)):
-    noise = np.random.normal(0, 1, size=(examples, latent_dim))
-    generated_images = generator.predict(noise)
-    generated_images = generated_images.reshape(examples, 28, 28)
-
-    plt.figure(figsize=figsize)
-    for i in range(10):
-        plt.subplot(dim[0], dim[1], i + 1)
-        plt.imshow(generated_images[i], interpolation='nearest', cmap='gray_r')
-        plt.axis('off')
-    plt.tight_layout()
-    plt.savefig(f'gan_generated_image_epoch_{epoch}.png')
 
 # Загрузка моделей
 loaded_generator = tf.keras.models.load_model('generator_model.h5')
